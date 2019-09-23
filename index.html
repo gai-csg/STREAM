@@ -5,47 +5,36 @@
 <body>
 	<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'> 
 		<a-assets>
-			<a-asset-item id="skatepark" src="https://raw.githubusercontent.com/gai-csg/STREAM/master/elephant.dae"></a-asset-item>
-			<a-asset-item id="soccer" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/75_soccer.dae"></a-asset-item>
-			<a-asset-item id="softball" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/55_softball.dae"></a-asset-item>
-			<a-asset-item id="tennis" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_tennis.dae"></a-asset-item>
-			<a-asset-item id="volleyball" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_vollyball.dae"></a-asset-item>
-			<a-asset-item id="pool" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/255_pool.dae"></a-asset-item>
-			<a-asset-item id="treestand" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_treestand.dae"></a-asset-item>
-			<a-asset-item id="gazebo" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_gazebo.dae"></a-asset-item>
-			<a-asset-item id="BMX" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/255_BMX.dae"></a-asset-item>
-			<a-asset-item id="center" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_center.dae"></a-asset-item>
-			<a-asset-item id="dock" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_dock.dae"></a-asset-item>
-			<a-asset-item id="restroom" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_restroom.dae"></a-asset-item>
-			<a-asset-item id="splashpad" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_splashpad.dae"></a-asset-item>
-			<a-asset-item id="playground" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_playground.dae"></a-asset-item>
-			<a-asset-item id="stormwater" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/55_stormwater.dae"></a-asset-item>
-			<a-asset-item id="theatre" src="https://raw.githubusercontent.com/gai-csg/orlandoparks/master/25_theatre.dae"></a-asset-item>
-			
+			<a-asset-item id="bear" src="https://raw.githubusercontent.com/gai-csg/STREAM/master/bear.dae"></a-asset-item>
+			<a-asset-item id="bison" src="https://raw.githubusercontent.com/gai-csg/STREAM/master/bison.dae"></a-asset-item>
+			<a-asset-item id="wolf" src="https://raw.githubusercontent.com/gai-csg/STREAM/master/wolf.dae"></a-asset-item>
+			<a-asset-item id="eagle" src="https://raw.githubusercontent.com/gai-csg/STREAM/master/eagle.dae"></a-asset-item>
+			<a-asset-item id="moose" src="https://raw.githubusercontent.com/gai-csg/STREAM/master/moose.dae"></a-asset-item>
+					
 		</a-assets>	
 	<!-- handle barcode marker 0 -->
 		<a-marker type='barcode' value='0'>
-    			<a-entity collada-model='#skatepark'></a-entity>
+    			<a-entity collada-model='#bear'></a-entity>
 		</a-marker>
 		
 	<!-- handle barcode marker 1 -->
 		<a-marker type='barcode' value='1'>
-    			<a-entity collada-model='#shuffleboard'></a-entity>
+    			<a-entity collada-model='#bison></a-entity>
 		</a-marker>
 
 	<!-- handle barcode marker 2 -->
 		<a-marker type='barcode' value='2'>
-    			<a-entity collada-model='#tennis'></a-entity>
+    			<a-entity collada-model='#wolf'></a-entity>
 		</a-marker>
 	
 	<!-- handle barcode marker 3 -->
 		<a-marker type='barcode' value='3'>
-			<a-entity collada-model='#basketball'></a-entity>
+			<a-entity collada-model='#eagle'></a-entity>
 		</a-marker>
 		
 	<!-- handle barcode marker 4 -->
 		<a-marker type='barcode' value='4'>
-			<a-entity collada-model='#volleyball'></a-entity>
+			<a-entity collada-model='#moose'></a-entity>
 		</a-marker>
 		
 	<!-- skip barcode marker 5 -->
